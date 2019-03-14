@@ -20,7 +20,7 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
     if (text.scan(/\./)) && (first_letter == first_letter.upcase)
       true
     else  
-    false
+      false
     end
 end
 
